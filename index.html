@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emely Dayana Alvarado Hernández | CV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: linear-gradient(135deg, #fdf2f8, #f5f3ff);
+            color: #3f3f46;
+            line-height: 1.7;
+        }
+        .container {
+            max-width: 1050px;
+            margin: 40px auto;
+            background: white;
+            border-radius: 25px;
+            overflow: hidden;
+            box-shadow: 0 15px 45px rgba(139, 92, 146, 0.18);
+        }
+        /* ENCABEZADO */
+        header {
+            background: linear-gradient(135deg, #c084fc, #ec4899);
+            color: white;
+            padding: 55px 45px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 38px;
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+        }
+        header h2 {
+            font-size: 19px;
+            font-weight: 400;
+            opacity: 0.95;
+        }
+        .contacto {
+            margin-top: 20px;
+            font-size: 15px;
+        }
+        .contacto a {
+            color: white;
+            text-decoration: none;
+        }
+        /* CONTENIDO */
+        .contenido {
+            padding: 45px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        .titulo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #a855f7;
+            font-size: 24px;
+            margin-bottom: 18px;
+            border-bottom: 2px solid #f3e8ff;
+            padding-bottom: 8px;
+        }
+        p {
+            margin-bottom: 14px;
+            text-align: justify;
+        }
+        /* FORMACIÓN Y EXPERIENCIA */
+        .tarjeta {
+            background: #faf5ff;
+            border-left: 5px solid #c084fc;
+            padding: 22px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+        .tarjeta h3 {
+            color: #7e22ce;
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        .tarjeta h4 {
+            color: #ec4899;
+            margin-bottom: 10px;
+        }
+        /* HABILIDADES */
+        .habilidades {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 18px;
+        }
+        .habilidad {
+            background: #fff7fb;
+            border: 1px solid #f5d0fe;
+            padding: 20px;
+            border-radius: 15px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .habilidad:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 20px rgba(236, 72, 153, 0.12);
+        }
+        .habilidad h3 {
+            color: #db2777;
+            margin-bottom: 8px;
+        }
+        /* LISTAS */
+        ul {
+            list-style: none;
+            padding-left: 5px;
+        }
+        li {
+            margin-bottom: 12px;
+            padding-left: 25px;
+            position: relative;
+        }
+        li::before {
+            content: "♥";
+            color: #ec4899;
+            position: absolute;
+            left: 0;
+        }
+        /* OBJETIVO */
+        .objetivo {
+            background: linear-gradient(135deg, #fdf2f8, #faf5ff);
+            border-radius: 18px;
+            padding: 25px;
+            border: 1px solid #f5d0fe;
+        }
+        /* CONTACTO FINAL */
+        .contacto-final {
+            text-align: center;
+            background: linear-gradient(135deg, #fce7f3, #f3e8ff);
+            padding: 30px;
+            border-radius: 18px;
+        }
+        .contacto-final h3 {
+            color: #a21caf;
+            margin-bottom: 10px;
+        }
+        .correo {
+            color: #be185d;
+            font-weight: bold;
+        }
+        /* PIE */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #faf5ff;
+            color: #8b5cf6;
+            font-size: 14px;
+        }
+        /* RESPONSIVE */
+        @media (max-width: 700px) {
+            .container {
+                margin: 15px;
+                border-radius: 18px;
+            }
+            header {
+                padding: 40px 20px;
+            }
+            header h1 {
+                font-size: 28px;
+            }
+            header h2 {
+                font-size: 16px;
+            }
+            .contenido {
+                padding: 25px 20px;
+            }
+            .habilidades {
+                grid-template-columns: 1fr;
+            }
+            p {
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <!-- ENCABEZADO -->
+    <header>
+        <h1>Emely Dayana Alvarado Hernández</h1>
+        <h2>Ingeniería en Negocios | Estudiante universitaria</h2>
+        <div class="contacto">
+            📧
+            <a href="mailto:emely.alvarado6392@alumnos.udg.mx">
+                emely.alvarado6392@alumnos.udg.mx
+            </a>
+        </div>
+    </header>
+    <main class="contenido">
+        <!-- SOBRE MÍ -->
+        <section>
+            <h2 class="titulo">🌷 Sobre mí</h2>
+            <p>
+                Soy una estudiante de Ingeniería en Negocios, actualmente cursando
+                el tercer semestre. Me considero una persona extrovertida, amable
+                y empática, con facilidad para relacionarme con diferentes personas.
+            </p>
+            <p>
+                Disfruto trabajar en equipo, convivir con los demás y participar en
+                diferentes actividades. Me interesa seguir desarrollando mis
+                habilidades personales y profesionales, especialmente aquellas
+                relacionadas con la comunicación, el trato con las personas y el
+                manejo de emociones.
+            </p>
+            <p>
+                Me considero una persona con actitud positiva, responsable y con
+                disposición para aprender cosas nuevas.
+            </p>
+        </section>
+        <!-- FORMACIÓN -->
+        <section>
+            <h2 class="titulo">🎓 Formación académica</h2>
+            <div class="tarjeta">
+                <h3>Ingeniería en Negocios</h3>
+                <h4>Universidad de Cutlquepaque</h4>
+                <p><strong>Actualmente:</strong> 3.er semestre</p>
+                <p>
+                    Durante mi formación universitaria he desarrollado conocimientos
+                    y habilidades relacionados con el ámbito empresarial, la
+                    organización, la toma de decisiones y el trabajo en equipo.
+                </p>
+                <p>
+                    Mi objetivo es continuar preparándome académicamente para aplicar
+                    mis conocimientos en el ámbito profesional.
+                </p>
+            </div>
+        </section>
+        <!-- EXPERIENCIA -->
+        <section>
+            <h2 class="titulo">💼 Experiencia laboral</h2>
+            <div class="tarjeta">
+                <h3>Atención al cliente</h3>
+                <h4>Marie Burger</h4>
+                <p>
+                    Actualmente trabajo en Marie Burger, donde he adquirido
+                    experiencia principalmente en el área de atención al cliente.
+                </p>
+                <p>
+                    Esta experiencia me ha permitido desarrollar habilidades para
+                    relacionarme con diferentes tipos de personas, brindar un trato
+                    amable y mantener una comunicación adecuada con los clientes.
+                </p>
+                <p>
+                    También me ha ayudado a fortalecer mi capacidad para manejar
+                    diferentes situaciones y emociones, trabajar de manera responsable
+                    y adaptarme a las necesidades del entorno laboral.
+                </p>
+            </div>
+        </section>
+        <!-- HABILIDADES -->
+        <section>
+            <h2 class="titulo">💕 Habilidades</h2>
+            <div class="habilidades">
+                <div class="habilidad">
+                    <h3>Comunicación</h3>
+                    <p>
+                        Tengo facilidad para expresarme y relacionarme con otras
+                        personas, buscando mantener una comunicación clara y respetuosa.
+                    </p>
+                </div>
+                <div class="habilidad">
+                    <h3>Empatía</h3>
+                    <p>
+                        Me esfuerzo por comprender las necesidades y perspectivas
+                        de las personas con las que convivo y trabajo.
+                    </p>
+                </div>
+                <div class="habilidad">
+                    <h3>Amabilidad</h3>
+                    <p>
+                        Considero importante ofrecer un trato respetuoso, cordial
+                        y agradable a las personas.
+                    </p>
+                </div>
+                <div class="habilidad">
+                    <h3>Manejo de emociones</h3>
+                    <p>
+                        He desarrollado la capacidad de mantener una actitud
+                        adecuada ante diferentes situaciones y aprender de cada experiencia.
+                    </p>
+                </div>
+                <div class="habilidad">
+                    <h3>Trabajo en equipo</h3>
+                    <p>
+                        Me gusta colaborar con otras personas, escuchar diferentes
+                        ideas y contribuir para alcanzar objetivos en común.
+                    </p>
+                </div>
+                <div class="habilidad">
+                    <h3>Adaptabilidad</h3>
+                    <p>
+                        Tengo disposición para aprender, enfrentar situaciones
+                        nuevas y adaptarme a diferentes ambientes.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- FORTALEZAS -->
+        <section>
+            <h2 class="titulo">🌟 Fortalezas personales</h2>
+            <ul>
+                <li>Soy una persona extrovertida y sociable.</li>
+                <li>Tengo facilidad para convivir y relacionarme con otras personas.</li>
+                <li>Me gusta aprender cosas nuevas.</li>
+                <li>Tengo una actitud positiva.</li>
+                <li>Soy empática y amable.</li>
+                <li>Me adapto a diferentes situaciones.</li>
+                <li>Me gusta trabajar y colaborar con otras personas.</li>
+                <li>Tengo interés por seguir creciendo tanto personal como profesionalmente.</li>
+            </ul>
+        </section>
+        <!-- OBJETIVO -->
+        <section>
+            <h2 class="titulo">🚀 Mi objetivo profesional</h2>
+            <div class="objetivo">
+                <p>
+                    Mi principal objetivo es terminar mi carrera de Ingeniería en
+                    Negocios y continuar adquiriendo experiencia que me permita
+                    desarrollarme profesionalmente.
+                </p>
+                <p>
+                    A futuro, quiero tener la oportunidad de ejercer mi carrera
+                    dentro de una buena empresa, aplicar los conocimientos adquiridos
+                    durante mi formación y seguir aprendiendo para crecer profesionalmente.
+                </p>
+            </div>
+        </section>
+        <!-- INTERESES -->
+        <section>
+            <h2 class="titulo">🌸 Intereses</h2>
+            <ul>
+                <li>Convivir con amigos y familiares.</li>
+                <li>Participar en diferentes actividades.</li>
+                <li>Conocer y relacionarme con nuevas personas.</li>
+                <li>Aprender cosas nuevas.</li>
+                <li>Desarrollarme personal y profesionalmente.</li>
+                <li>Seguir creciendo dentro del área de los negocios.</li>
+            </ul>
+        </section>
+        <!-- VISIÓN -->
+        <section>
+            <h2 class="titulo">💗 Mi visión</h2>
+            <p>
+                Quiero construir un futuro profesional en el que pueda aprovechar
+                mis habilidades, conocimientos y experiencias para alcanzar mis metas.
+            </p>
+            <p>
+                Estoy convencida de que cada experiencia, tanto académica como
+                laboral, representa una oportunidad para aprender, mejorar y
+                acercarme a mis objetivos.
+            </p>
+        </section>
+        <!-- CONTACTO -->
+        <section>
+            <div class="contacto-final">
+                <h2 class="titulo" style="justify-content:center; border:none;">
+                    📩 Contacto
+                </h2>
+                <h3>Emely Dayana Alvarado Hernández</h3>
+                <p class="correo">
+                    emely.alvarado6392@alumnos.udg.mx
+                </p>
+                <p>
+                    Estudiante de Ingeniería en Negocios |
+                    Atención al cliente |
+                    Comunicación |
+                    Empatía |
+                    Trabajo en equipo
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        © 2026 Emely Dayana Alvarado Hernández · CV Profesional
+    </footer>
+</div>
+</body>
+</html>
